@@ -1,5 +1,5 @@
 import './testimonials.min.css';
 
 export default function Testimonials() {
-  return <div className='testimonials' id='testimonial'></div>;
+  return <div className='testimonials' id='testimonials'></div>;
 }

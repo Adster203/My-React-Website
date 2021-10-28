@@ -4,7 +4,7 @@ import MailIcon from '@mui/icons-material/Mail';
 
 export default function topbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={`topbar ${menuOpen && 'active'}`}>
+    <div className={`topbar ${menuOpen && `active`}`}>
       <div className='wrapper'>
         <div className='left'>
           <a href='#intro' className='logo'>
